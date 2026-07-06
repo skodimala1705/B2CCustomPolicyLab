@@ -130,6 +130,7 @@ C:\Users\Savy\B2CHelloWorld\obj\Debug\net10.0\B2CHelloWorld.genruntimeconfig.cac
 C:\Users\Savy\B2CHelloWorld\obj\Debug\net10.0\ref\B2CHelloWorld.dll
 C:\Users\Savy\B2CCustomPolicyLab\bin\Debug\net10.0\appsettings.Development.json
 C:\Users\Savy\B2CCustomPolicyLab\bin\Debug\net10.0\appsettings.json
+C:\Users\Savy\B2CCustomPolicyLab\bin\Debug\net10.0\appsettings.sample.json
 C:\Users\Savy\B2CCustomPolicyLab\bin\Debug\net10.0\B2CHelloWorld.staticwebassets.runtime.json
 C:\Users\Savy\B2CCustomPolicyLab\bin\Debug\net10.0\B2CHelloWorld.staticwebassets.endpoints.json
 C:\Users\Savy\B2CCustomPolicyLab\bin\Debug\net10.0\B2CHelloWorld.exe
@@ -177,6 +178,7 @@ C:\Users\Savy\B2CCustomPolicyLab\obj\Debug\net10.0\B2CHelloWorld.MvcApplicationP
 C:\Users\Savy\B2CCustomPolicyLab\obj\Debug\net10.0\B2CHelloWorld.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Savy\B2CCustomPolicyLab\obj\Debug\net10.0\B2CHelloWorld.RazorAssemblyInfo.cache
 C:\Users\Savy\B2CCustomPolicyLab\obj\Debug\net10.0\B2CHelloWorld.RazorAssemblyInfo.cs
+C:\Users\Savy\B2CCustomPolicyLab\obj\Debug\net10.0\B2CHelloWorld.sourcelink.json
 C:\Users\Savy\B2CCustomPolicyLab\obj\Debug\net10.0\rjimswa.dswa.cache.json
 C:\Users\Savy\B2CCustomPolicyLab\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
 C:\Users\Savy\B2CCustomPolicyLab\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json

@@ -1,36 +1,196 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>B2C Demo</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <style>
-        body{
-            background:#031540;
-            color:white;
-            font-family:Segoe UI;
-            padding:40px;
-        }
+<title>Savy</title>
 
-        #api{
-            background:white;
-            padding:20px;
-            border-radius:10px;
-            margin-top:30px;
-            max-width:500px;
-        }
-    </style>
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    min-height:100vh;
+    background:#000;
+    color:#fff;
+    font-family:'Press Start 2P', monospace;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+
+    background-image:
+        radial-gradient(circle at center,#111 0%, #000 70%);
+}
+
+.wrapper{
+    width:100%;
+    max-width:900px;
+}
+
+.card{
+    background:#111;
+    border:4px solid white;
+    box-shadow:
+        0 0 0 4px #000,
+        0 0 0 8px #fff;
+
+    padding:40px;
+}
+
+.logo{
+    text-align:center;
+    margin-bottom:25px;
+}
+
+.logo-symbol{
+    font-size:90px;
+    line-height:1;
+}
+
+.logo-title{
+    font-size:42px;
+    margin-top:15px;
+    letter-spacing:8px;
+}
+
+.logo-tagline{
+    margin-top:20px;
+    font-size:12px;
+    opacity:.8;
+}
+
+.separator{
+    margin:30px 0;
+    height:4px;
+    background:#fff;
+}
+
+#api{
+    background:#fff;
+    color:#000;
+    padding:30px;
+    border:4px solid #000;
+}
+
+/* B2C text */
+
+#api label{
+    font-family:Arial !important;
+    font-weight:700 !important;
+    display:block !important;
+    margin-bottom:8px !important;
+}
+
+/* Inputs */
+
+#api input{
+    width:100% !important;
+    padding:14px !important;
+    border:3px solid #000 !important;
+    border-radius:0 !important;
+    margin-bottom:15px !important;
+    font-size:15px !important;
+}
+
+/* Buttons */
+
+#api button{
+    width:100% !important;
+    padding:14px !important;
+    border:none !important;
+    background:#000 !important;
+    color:#fff !important;
+    font-weight:bold !important;
+    cursor:pointer !important;
+    transition:.2s;
+}
+
+#api button:hover{
+    background:#222 !important;
+}
+
+#api a{
+    color:#000 !important;
+    font-weight:bold !important;
+}
+
+.footer{
+    margin-top:25px;
+    text-align:center;
+    font-size:10px;
+    opacity:.7;
+}
+
+.footer span{
+    display:block;
+    margin-top:8px;
+}
+
+@media(max-width:768px){
+
+    .card{
+        padding:25px;
+    }
+
+    .logo-symbol{
+        font-size:60px;
+    }
+
+    .logo-title{
+        font-size:24px;
+        letter-spacing:4px;
+    }
+
+    #api{
+        padding:20px;
+    }
+}
+
+</style>
 </head>
 
 <body>
 
-    <h1>My B2C Demo</h1>
+<div class="wrapper">
 
-    <p>
-        Authentication powered by Azure AD B2C
-    </p>
+    <div class="card">
 
-    <div id="api"></div>
+        <div class="logo">
+
+            <div class="logo-symbol">
+                ☯
+            </div>
+
+            <div class="logo-title">
+                SAVY
+            </div>
+
+            <div class="logo-tagline">
+                SURPASSING LIMIT
+            </div>
+
+        </div>
+
+        <div class="separator"></div>
+
+        <div id="api"></div>
+
+        <div class="footer">
+            SAVY IDENTITY PLATFORM
+            <span>EST. 2026</span>
+        </div>
+
+    </div>
+
+</div>
 
 </body>
 </html>
