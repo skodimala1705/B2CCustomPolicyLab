@@ -176,31 +176,35 @@ body{
 /* =======================================
    BUTTONS
 ======================================= */
+/* SIGN IN BUTTON */
 
-#api button{
+#api button,
+#api input[type="submit"],
+#api #next{
     width:100% !important;
 
-    height:58px !important;
+    height:38px !important;
 
-    border:0 !important;
+    background:#7a7a7a !important;
 
-    background:#000 !important;
     color:#fff !important;
 
-    font-size:11px !important;
+    border:2px solid #000 !important;
 
-    text-transform:uppercase !important;
+    font-size:9px !important;
 
-    cursor:pointer !important;
+    padding:0 !important;
 
     margin-top:8px !important;
+
+    box-shadow:none !important;
 }
 
-#api button:hover{
-    background:#222 !important;
+#api button:hover,
+#api input[type="submit"]:hover,
+#api #next:hover{
+    background:#9a9a9a !important;
 }
-
-
 /* =======================================
    DROPDOWNS
 ======================================= */
@@ -263,23 +267,23 @@ body{
 
     width:100% !important;
 
-    background:#000 !important;
-    color:#fff !important;
+    background:#cfcfcf !important;
+
+    color:#000 !important;
 
     border:2px solid #000 !important;
 
-    padding:18px !important;
+    padding:8px !important;
+
+    font-size:8px !important;
+
+    line-height:1.4 !important;
 
     text-align:center !important;
 
     text-decoration:none !important;
-
-    font-size:11px !important;
 }
 
-#api #createAccount::before{
-    content:"DON'T HAVE AN ACCOUNT? ";
-}
 
 #api .entry{
     margin-top:20px !important;
