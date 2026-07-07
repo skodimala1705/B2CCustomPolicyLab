@@ -6,43 +6,33 @@
 
     <div class="savy-terminal">
 
-    <div class="savy-header">
-        <div class="savy-title">SAVY</div>
-        <div class="savy-tagline">SURPASSING LIMIT</div>
+        <div class="savy-header">
+            <div class="savy-title">SAVY</div>
+            <div class="savy-tagline">SURPASSING LIMIT</div>
+        </div>
+
+        <div class="savy-subtitle">
+            IDENTITY ACCESS TERMINAL
+        </div>
+
+        @if (!(User.Identity?.IsAuthenticated ?? false))
+        {
+            <div class="savy-actions">
+                <a href="/Account/Login" class="savy-btn savy-btn-primary">
+                    LOGIN
+                </a>
+
+                <a href="/Account/SignUp" class="savy-btn savy-btn-secondary">
+                    SIGN UP
+                </a>
+            </div>
+        }
+
     </div>
-
-    <div class="savy-subtitle">
-        IDENTITY ACCESS TERMINAL
-    </div>
-
-    <div class="savy-actions">
-        /Account/Login
-            LOGIN
-        </a>
-
-        <a class="savy-btn savy-btn-secondary"
-            </a>
-    </div>
-
-</div>
 
     <hr />
 
-    @if (!(User.Identity?.IsAuthenticated ?? false))
-    {
-        <div class="text-center">
-
-            <a href="/Account/Login" class="btn btn-primary">
-                Login
-            </a>
-
-            <a href="/Account/SignUp" class="btn btn-success">
-                Sign Up
-            </a>
-
-        </div>
-    }
-    else
+    @if (User.Identity?.IsAuthenticated ?? false)
     {
         <div class="card mb-3">
             <div class="card-header">
@@ -89,16 +79,16 @@
 
                     <tbody>
                         @foreach (var claim in User.Claims.OrderBy(c => c.Type))
-                    {
-                        <tr>
-                            <td>
-                                @Html.Raw(claim.Type)
-                            </td>
-                            <td>
-                                @claim.Value
-                            </td>
-                        </tr>
-                    }
+                        {
+                            <tr>
+                                <td>
+                                    @Html.Raw(claim.Type)
+                                </td>
+                                <td>
+                                    @claim.Value
+                                </td>
+                            </tr>
+                        }
                     </tbody>
 
                 </table>

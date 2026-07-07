@@ -185,7 +185,7 @@ C:\Users\Savy\B2CCustomPolicyLab\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
 C:\Users\Savy\B2CCustomPolicyLab\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Savy\B2CCustomPolicyLab\obj\Debug\net10.0\scopedcss\bundle\B2CHelloWorld.styles.css
 C:\Users\Savy\B2CCustomPolicyLab\obj\Debug\net10.0\scopedcss\projectbundle\B2CHelloWorld.bundle.scp.css
-C:\Users\Savy\B2CCustomPolicyLab\obj\Debug\net10.0\compressed\t81srrd2tt-{0}-b9sayid5wm-b9sayid5wm.gz
+C:\Users\Savy\B2CCustomPolicyLab\obj\Debug\net10.0\compressed\t81srrd2tt-{0}-wfzjx0jfzl-wfzjx0jfzl.gz
 C:\Users\Savy\B2CCustomPolicyLab\obj\Debug\net10.0\compressed\02cb82cfn4-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\Savy\B2CCustomPolicyLab\obj\Debug\net10.0\compressed\rzmmvcobw9-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\Savy\B2CCustomPolicyLab\obj\Debug\net10.0\compressed\ietttkj7fb-{0}-bqjiyaj88i-bqjiyaj88i.gz
